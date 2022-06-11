@@ -1,12 +1,12 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: 100-days-of-homelab-com
+  name: one-hundred-days-of-homelab-com
   namespace: default
 spec:
   selector:
     matchLabels:
-      app: 100-days-of-homelab-com
+      app: one-hundred-days-of-homelab-com
   replicas: 3
   progressDeadlineSeconds: 600
   revisionHistoryLimit: 3
@@ -18,12 +18,12 @@ spec:
   template:
     metadata:
       labels:
-        app: 100-days-of-homelab-com
+        app: one-hundred-days-of-homelab-com
       annotations:
         deploy-date: "deploy-date-value"
     spec:
       containers:
-      - name: 100-days-of-homelab-com
+      - name: one-hundred-days-of-homelab-com
         image: "registry-value:latest"
         resources:
           requests:
@@ -40,7 +40,7 @@ spec:
             - podAffinityTerm:
                 labelSelector:
                   matchLabels:
-                    name: 100-days-of-homelab-com
+                    name: one-hundred-days-of-homelab-com
                 topologyKey: kubernetes.io/hostname
               weight: 100
       imagePullSecrets: 
