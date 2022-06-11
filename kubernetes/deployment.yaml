@@ -1,0 +1,47 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: 100-days-homelab-site
+  namespace: default
+spec:
+  selector:
+    matchLabels:
+      app: 100-days-homelab-site
+  replicas: 3
+  progressDeadlineSeconds: 600
+  revisionHistoryLimit: 3
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxUnavailable: 25%
+      maxSurge: 1
+  template:
+    metadata:
+      labels:
+        app: 100-days-homelab-site
+      annotations:
+        deploy-date: "deploy-date-value"
+    spec:
+      containers:
+      - name: 100-days-homelab-site
+        image: "registry-value:latest"
+        resources:
+          requests:
+            memory: "64Mi"
+            cpu: "100m"
+          limits: 
+            memory: "128Mi"
+            cpu: "250m" 
+        ports: 
+        - containerPort: 80
+      affinity:
+          podAntiAffinity:
+            preferredDuringSchedulingIgnoredDuringExecution:
+            - podAffinityTerm:
+                labelSelector:
+                  matchLabels:
+                    name: 100-days-homelab-site
+                topologyKey: kubernetes.io/hostname
+              weight: 100
+      imagePullSecrets: 
+      - name: registry-credentials-gitlab
