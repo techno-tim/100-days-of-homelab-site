@@ -2,7 +2,7 @@
 layout: post
 title: "Projects & Inspiration"
 description: Looking for Ideas?
-# image: assets/images/projects.jpg
+image: assets/images/projects.jpg
 nav-menu: true
 youtubeId: gPGf4Y8nQqM
 ---
