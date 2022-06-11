@@ -21,6 +21,6 @@ nav-menu: true
 
 <ul class="actions vertical">
    <li>
-    <a href="https://twitter.com/intent/tweet?text=I%27m%20publicly%20committing%20to%20the%20100DaysOfHomeLab%20Challenge%20starting%20today!%20Join%20me!&url=https%3A%2F%2F100daysofhomelab.com&hashtags=100DaysOfHomeLab" class="button special" target="_blank" rel="noopener noreferrer">Tweet to join the challenge!</a>
+    <a href="https://twitter.com/intent/tweet?text=I%27m%20publicly%20committing%20to%20the%20100DaysOfHomeLab%20Challenge%20starting%20today!%20Join%20me!&url=100daysofhomelab.com&hashtags=100DaysOfHomeLab" class="button special" target="_blank" rel="noopener noreferrer">Tweet to join the challenge!</a>
    </li>
 </ul>
