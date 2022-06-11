@@ -40,7 +40,7 @@ spec:
             - podAffinityTerm:
                 labelSelector:
                   matchLabels:
-                    name: one-hundred-days-of-homelab-com
+                    name: 100-days-homelab-site
                 topologyKey: kubernetes.io/hostname
               weight: 100
       imagePullSecrets: 
