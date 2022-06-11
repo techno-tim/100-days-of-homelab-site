@@ -57,3 +57,4 @@ deploy:
     - echo ${KUBERNETES_EXTERNAL_CLUSTER} | base64 -d -i > ${KUBECONFIG}    
   script:
     - kubectl apply -f kubernetes
+    
