@@ -24,8 +24,7 @@ socials:
   Discord: https://l.technotim.live/discord
   Patreon: https://l.technotim.live/patreon
 
-google_analytics:
-  id: 'G-144JZ8THDX'
+google_analytics: 'G-144JZ8THDX'
 
 # build settings
 markdown: kramdown
