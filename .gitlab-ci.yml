@@ -32,8 +32,6 @@ docker_image_build_release:
   cache:
     <<: *global_cache
     policy: pull
-  only:
-    - tags
   retry: 2
   script:
     - mkdir -p /kaniko/.docker
@@ -46,8 +44,6 @@ deploy:
     entrypoint: [""]
   cache: []
   stage: deploy
-  only:
-    - tags
   retry: 2
   before_script:
     - sed -ie "s/deploy-date-value/$(date)/g" kubernetes/deployment.yaml
