@@ -1,6 +1,6 @@
 ################################# Default configuration ###################
 baseURL = "/"
-title = "Meghna"
+title = "100 Days of HomeLab"
 theme = "meghna-hugo"
 # post pagination
 paginate = "6"
