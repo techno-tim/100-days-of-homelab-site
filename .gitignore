@@ -1,0 +1,12 @@
+*~
+*.log*
+*.swo
+*.swp
+.DS_Store
+.idea
+.vscode
+.tmp
+node_modules
+
+# Hugo build folder
+/public
