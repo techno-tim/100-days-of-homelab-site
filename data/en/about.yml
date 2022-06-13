@@ -5,7 +5,7 @@ about:
   about_item :
   - icon : ti-medall
     title : Commit
-    content : Spending 1 hour a day for the next 100 days working in your HomeLab.
+    content : Spend 1 hour a day for the next 100 days working in your HomeLab.
 
   - icon : ti-rocket
     title : Share
