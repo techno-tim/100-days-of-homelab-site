@@ -1,60 +1,139 @@
 ############################### team ############################
 team:
-  enable : false
+  enable : true
   title : Featured Creators
   team_member :
-    # team member loop
-    - name : Techno Tim
-      image_webp : images/team/technotim.webp
-      image : images/team/technotim.jpg
-      designation : YouTube
-      content : Software Engineer | Gamer | Twitch Streamer | Content Creator on YouTube | Homelab | 🇺🇸 🇯🇵  | Full Nerd
-      social :
-        - icon : ti-twitter-alt
-          link : "https://twitter.com/TechnoTimLive"
-        - icon : ti-youtube
-          link : "https://www.youtube.com/channel/UCOk-gHyjcWZNj3Br4oxwh0A"
-        
-    # team member loop
-    - name : Jeff Geerling
+
+    - name : Jeff
       image_webp : images/team/jeff-geerling.webp
       image : images/team/jeff-geerling.jpg
-      designation : YouTube
+      designation : Jeff Geerling
       content : "Father, author, developer, maker."
       social :
         - icon : ti-twitter-alt
           link : "https://twitter.com/geerlingguy"
         - icon : ti-youtube
           link : "https://www.youtube.com/c/JeffGeerling"
-        
-    # team member loop
-    - name : Michael Jonson
-      image_webp : images/team/team-3.webp
-      image : images/team/team-3.jpg
-      designation : Web Developer
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
+
+    - name : Wendell
+      image_webp : images/team/wendell.webp
+      image : images/team/wendell.webp
+      designation : Level1Techs
+      content : Anything is interesting if you go deep enough. Nerd at Level1Techs
       social :
-        - icon : ti-facebook # themify icon pack : https://themify.me/themify-icons
-          link : "#"
-        - icon : ti-twitter-alt # themify icon pack : https://themify.me/themify-icons
-          link : "#"
-        - icon : ti-linkedin # themify icon pack : https://themify.me/themify-icons
-          link : "#"
-        - icon : ti-dribbble # themify icon pack : https://themify.me/themify-icons
-          link : "#"
-        
-    # team member loop
-    - name : Mo. Kha. Alamgir
-      image_webp : images/team/team-4.webp
-      image : images/team/team-4.jpg
-      designation : SEO Specialist
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
+        - icon : ti-twitter-alt
+          link : "https://twitter.com/tekwendell"
+        - icon : ti-youtube 
+          link : "https://www.youtube.com/c/level1techs"
+
+    - name : Jeff
+      image_webp : images/team/jeff.webp
+      image : images/team/jeff.jpg
+      designation : Craft Computing
+      content : "Professional Beer Reviewer, Tinkerer, Former know-it-all. Now I only pretend to know it all."
       social :
-        - icon : ti-facebook # themify icon pack : https://themify.me/themify-icons
-          link : "#"
-        - icon : ti-twitter-alt # themify icon pack : https://themify.me/themify-icons
-          link : "#"
-        - icon : ti-linkedin # themify icon pack : https://themify.me/themify-icons
-          link : "#"
-        - icon : ti-dribbble # themify icon pack : https://themify.me/themify-icons
-          link : "#"
+        - icon : ti-twitter-alt
+          link : "https://twitter.com/CraftComputing"
+        - icon : ti-youtube
+          link : "https://www.youtube.com/c/CraftComputing"
+        
+
+    - name : Veronica
+      image_webp : images/team/veronica.webp
+      image : images/team/veronica.webp
+      designation : Veronica Explains 
+      content : Friendly neighborhood Linux mom! COBOL/sysadmin/web lady. Geeky musician. Abolitionist.
+      social :
+        - icon : ti-twitter-alt
+          link : "https://twitter.com/VKCsh"
+        - icon : ti-youtube 
+          link : "https://www.youtube.com/c/VeronicaExplains"
+
+    - name : Tom
+      image_webp : images/team/tom.webp
+      image : images/team/tom.jpg
+      designation : Lawrence Systems
+      content : Tech Enthusiast, Open Source Advocate, Content Creator,
+      social :
+        - icon : ti-twitter-alt
+          link : "https://twitter.com/TomLawrenceTech"
+        - icon : ti-youtube
+          link : "https://www.youtube.com/user/TheTecknowledge"
+        
+    - name : Jay
+      image_webp : images/team/jay.webp
+      image : images/team/jay.webp
+      designation : LearnLinuxTV
+      content : Technologist, Linux fanboy. Host/owner of LearnLinuxTV, author of Mastering Ubuntu Server Third Edition. He/Him.
+      social :
+        - icon : ti-twitter-alt
+          link : "https://twitter.com/JayTheLinuxGuy"
+        - icon : ti-youtube 
+          link : "https://www.youtube.com/c/LearnLinuxtv"
+        
+    - name : Howard
+      image_webp : images/team/howard.webp
+      image : images/team/howard.webp
+      designation : I.T Security Labs
+      content : Follow me for  no bs infosec skills labs, videos. OSCP, CISSP. I believe  in setting goals and executing. Let’s learn and grow together.
+      social :
+        - icon : ti-twitter-alt
+          link : "https://twitter.com/lahilabs"
+        - icon : ti-youtube 
+          link : "https://www.youtube.com/c/ITSecurityLabs"
+        
+    - name : Chris
+      image_webp : images/team/chris.webp
+      image : images/team/chris.webp
+      designation : Chris Titus Tech
+      content : Tech Content Creator 
+      social :
+        - icon : ti-twitter-alt
+          link : "https://twitter.com/christitustech"
+        - icon : ti-youtube 
+          link : "https://www.youtube.com/c/ChrisTitusTech"
+        
+    - name : Christian
+      image_webp : images/team/christian.webp
+      image : images/team/christian.webp
+      designation : The Digital Life
+      content : Hey, I’m Christian, a 35 years old tech enthusiast from Germany, and I love to inspire and educate people in IT.
+      social :
+        - icon : ti-twitter-alt
+          link : "https://twitter.com/christian_tdl"
+        - icon : ti-youtube 
+          link : "https://www.youtube.com/c/TheDigitalLifeTech"
+
+    - name : David 
+      image_webp : images/team/david.webp
+      image : images/team/david.jpg
+      designation : DB Tech
+      content : YouTuber and a bit of a nerd.
+      social :
+        - icon : ti-twitter-alt
+          link : "https://twitter.com/davidnburgess"
+        - icon : ti-youtube
+          link : "https://www.youtube.com/c/DBTechYT"
+
+    - name : Raid Owl
+      image_webp : images/team/raid-owl.webp
+      image : images/team/technotim.jpg
+      designation : Raid Owl
+      content : I make tech videos about PCs and servers and stuff. I'm also 1/8th owl
+      social :
+        - icon : ti-twitter-alt
+          link : "https://twitter.com/RaidOwlTweets"
+        - icon : ti-youtube
+          link : "https://www.youtube.com/c/RaidOwl"
+        
+    - name : Techno Tim
+      image_webp : images/team/technotim.webp
+      image : images/team/technotim.jpg
+      designation : Techno Tim
+      content : Software Engineer | Gamer | Twitch Streamer | Content Creator on YouTube | Homelab | 🇺🇸 🇯🇵  | Full Nerd
+      social :
+        - icon : ti-twitter-alt
+          link : "https://twitter.com/TechnoTimLive"
+        - icon : ti-youtube
+          link : "https://www.youtube.com/c/TechnoTimLive"
+        
