@@ -44,8 +44,6 @@ team:
       designation : Veronica Explains 
       content : Friendly neighborhood Linux mom! COBOL/sysadmin/web lady. Geeky musician. Abolitionist.
       social :
-        - icon : ti-twitter-alt
-          link : "https://twitter.com/VKCsh"
         - icon : ti-youtube 
           link : "https://www.youtube.com/c/VeronicaExplains"
 
