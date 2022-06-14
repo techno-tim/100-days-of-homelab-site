@@ -46,10 +46,10 @@ name = "rules"
 url = "#about"
 weight = 1
 
-# [[Languages.en.menu.main]]
-# name = "featured creators"
-# url = "#features-creators"
-# weight = 4
+[[Languages.en.menu.main]]
+name = "creators"
+url = "#team"
+weight = 4
 
 
 ############################# Default Parameters ##########################
