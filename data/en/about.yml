@@ -13,9 +13,9 @@ about:
 
   - icon : ti-search
     title : Discover & Encourage
-    content : "Discovery other #100DaysOfHomeLab projects and encourage others!"
+    content : "Discover other #100DaysOfHomeLab projects and encourage others!"
 
   button:
     enable : true
     label : "Tweet to Join the Challenge!"
-    link : "https://twitter.com/intent/tweet?text=I%27m%20publicly%20committing%20to%20the%20100DaysOfHomeLab%20Challenge%20starting%20today!%20Join%20me!&url=100daysofhomelab.com&hashtags=100DaysOfHomeLab"
+    link : "https://twitter.com/intent/tweet?text=I%27m%20publicly%20committing%20to%20the%20100DaysOfHomeLab%20Challenge%20starting%20today!%20Join%20me!&url=https%3A%2F%2F100daysofhomelab.com&hashtags=100DaysOfHomeLab"
