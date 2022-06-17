@@ -504,10 +504,10 @@ http-cache-semantics@3.8.1:
   resolved "https://registry.yarnpkg.com/http-cache-semantics/-/http-cache-semantics-3.8.1.tgz#39b0e16add9b605bf0a9ef3d9daaf4843b4cacd2"
   integrity sha512-5ai2iksyV8ZXmnZhHH4rWPoxxistEexSi5936zIQ1bnNTW5VnA85B6P/VpXiRM017IgRvb2kKo1a//y+0wSp3w==
 
-hugo-bin@^0.88.2:
-  version "0.88.2"
-  resolved "https://registry.yarnpkg.com/hugo-bin/-/hugo-bin-0.88.2.tgz#70b0942b41bd8ffa7b24edfcb18b9cac06547480"
-  integrity sha512-MdSczDJqVh75w0ERXLuU72ACQ+IlS5AROoh1gecdagZxoLF3Wj50gVOZRoBcx5qFaGkEDcdw2a1YQeEEUsZVKw==
+hugo-bin@^0.89.0:
+  version "0.89.0"
+  resolved "https://registry.yarnpkg.com/hugo-bin/-/hugo-bin-0.89.0.tgz#0452edddc34632478ea9d0602d65d8e9cb7dd95f"
+  integrity sha512-vJFD0UjVP0XOhy6YqTSRe9sRUWxFsrJnJZgTMTJUEXz5ks8apncY2F9h32srQy9wRRrlRgXVD8iBS9nztb5VbA==
   dependencies:
     bin-wrapper "^4.1.0"
     picocolors "^1.0.0"
