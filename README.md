@@ -1,6 +1,6 @@
 # 100-days-of-homelab-site
 
-This is the [100 Days of HomeLab](https://100daysofhomelab.com) website.
+This is the [100 Days of HomeLab](https://100daysofhomelab.com) website that is driving [#100DaysOfHomeLab](https://twitter.com/search?q=%23100daysofhomelab&src=typed_query)
 
 ## Credits
 
