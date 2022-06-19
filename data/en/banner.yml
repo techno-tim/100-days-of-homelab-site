@@ -1,0 +1,12 @@
+############################### Banner ################################
+banner:
+  enable : true
+  bg_image_webp : "images/backgrounds/hero-area.webp"
+  bg_image : "images/backgrounds/hero-area.jpg"
+  icon : ""
+  title : "100 Days of HomeLab"
+  content : "#100DaysOfHomeLab is a challenge to improve your IT skills."
+  button:
+    enable : true
+    label : "Take the Challenge"
+    link : "#about"

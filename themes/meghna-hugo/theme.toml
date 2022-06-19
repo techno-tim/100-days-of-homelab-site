@@ -1,0 +1,13 @@
+name = "Meghna Hugo"
+license = "MIT"
+licenselink = "https://github.com/themefisher/meghna-hugo/blob/master/LICENSE"
+description = "Meghna Hugo is a responsive, minimalist, lightweight, and fast loading one-page business theme built with HTML5/CSS3, Hugo, JavaScript, and JQuery."
+homepage = "https://gethugothemes.com/products/meghna-hugo-theme/"
+demosite = "https://demo.gethugothemes.com/meghna/"
+tags = ['landing-page', 'google-analytics', 'fast', 'modern', 'minimal', 'minimalistic', 'business', 'agency-template', 'themefisher', 'hugo-theme', 'hugo-templates', 'bootstrap', 'blog', 'responsive', 'portfolio', 'single-page', 'dark', 'clean', 'simple', 'company', 'creative', 'contact-form', 'custom-themes', 'mobile', 'gethugothemes']
+features = ['bootstrap','responsive']
+min_version = "0.58.0"
+
+[author]
+  name = "Themefisher"
+  homepage = "https://themefisher.com/hugo-themes"

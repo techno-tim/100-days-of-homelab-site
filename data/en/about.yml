@@ -1,0 +1,21 @@
+############################# About ###################################
+about:
+  enable : true
+  title : The Rules
+  about_item :
+  - icon : ti-medall
+    title : Commit
+    content : Spend 1 hour a day for the next 100 days working in your HomeLab.
+
+  - icon : ti-rocket
+    title : Share
+    content : "Share your progress daily using the hashtag #100DaysOfHomeLab"
+
+  - icon : ti-search
+    title : Discover & Encourage
+    content : "Discover other #100DaysOfHomeLab projects and encourage others!"
+
+  button:
+    enable : true
+    label : "Tweet to Join the Challenge!"
+    link : "https://twitter.com/intent/tweet?text=I%27m%20publicly%20committing%20to%20the%20100DaysOfHomeLab%20Challenge%20starting%20today!%20Join%20me!&url=https%3A%2F%2F100daysofhomelab.com&hashtags=100DaysOfHomeLab"

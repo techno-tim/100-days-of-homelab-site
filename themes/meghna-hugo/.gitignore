@@ -1,0 +1,67 @@
+Thumbs.db
+.DS_Store
+.dist
+.tmp
+.sass-cache
+npm-debug.log
+node_modules
+builds
+package-lock.json
+public
+resources
+
+*~
+*.log*
+*.swo
+*.swp
+.DS_Store
+.idea
+.vscode
+.tmp
+node_modules
+
+# Hugo build folder
+/public
+
+
+.DS_Store
+node_modules
+./public
+.tmp
+.idea
+.log
+dist
+docs
+npm-debug.log
+.nyc_output
+coverage
+cassettes
+yarn-error.log
+.compiled
+
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
+yarn*
+.bundle
+!.travis.yml
+
+# hidden files
+.*
+!.git*
+!.editorconfig
+!.nojekyll
+!.travis.yml
+
+# bundler cache
+_site
+vendor
+
+# rubygem
+*.gem
+
+# npm dependencies
+node_modules
+package-lock.json

@@ -1,0 +1,17 @@
+{
+  "name": "100-days-of-homelab-site",
+  "version": "1.0.2",
+  "description": "100 Days of HomeLab",
+  "main": "index.js",
+  "scripts": {
+    "build": "hugo",
+    "hugo": "hugo",
+    "start": "hugo server",
+    "test": "hugo"
+  },
+  "author": "Timothy Stewart",
+  "private": true,
+  "devDependencies": {
+    "hugo-bin": "^0.89.0"
+  }
+}
