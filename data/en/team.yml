@@ -123,7 +123,18 @@ team:
           link : "https://twitter.com/RaidOwlTweets"
         - icon : ti-youtube
           link : "https://www.youtube.com/c/RaidOwl"
-        
+    
+    - name : TechHut
+      image_webp : images/team/tech-hut.webp
+      image : images/team/tech-hut.jpg
+      designation : TechHut
+      content : "Geosciences Student at EWU. Technology enthusiast. TechHut Media."
+      social :
+        - icon : ti-twitter-alt
+          link : "https://twitter.com/TechHutTV"
+        - icon : ti-youtube
+          link : "https://www.youtube.com/c/TechHutHD"
+          
     - name : Techno Tim
       image_webp : images/team/technotim.webp
       image : images/team/technotim.jpg
