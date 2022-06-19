@@ -3,7 +3,7 @@ name: 'push-remote'
 on:
   push:
     branches:
-      - master
+      - main
     paths-ignore:
       - .gitignore
       - README.md
