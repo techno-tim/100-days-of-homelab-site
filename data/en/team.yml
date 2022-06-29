@@ -134,7 +134,18 @@ team:
           link : "https://twitter.com/TechHutTV"
         - icon : ti-youtube
           link : "https://www.youtube.com/c/TechHutHD"
-          
+
+    - name : Robert Mizen
+      image_webp : images/team/robert-mizen.webp
+      image : images/team/robert-mizen.jpg
+      designation : Robert Mizen
+      content : "Teacher in Data Centers, Technology & Networking. Tech Youtuber and Outdoor enthusiast, currently enthusiasting in Sweden. 🇪🇺🇬🇧🇸🇪"
+      social :
+        - icon : ti-twitter-alt
+          link : "https://twitter.com/robert_mizen"
+        - icon : ti-youtube
+          link : "https://www.youtube.com/c/RobertMizen"
+
     - name : Techno Tim
       image_webp : images/team/technotim.webp
       image : images/team/technotim.jpg
