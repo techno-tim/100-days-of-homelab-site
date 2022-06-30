@@ -146,6 +146,17 @@ team:
         - icon : ti-youtube
           link : "https://www.youtube.com/c/AwesomeOpenSource"
 
+    - name : Robert
+      image_webp : images/team/tech-addressed.webp
+      image : images/team/tech-addressed.jpg
+      designation : Tech Addressed
+      content : "Dad | Husband | Technology Enthusiast | Linux Gamer | Speaks Fluent GIF"
+      social :
+        - icon : ti-twitter-alt
+          link : "https://twitter.com/mickIntx"
+        - icon : ti-world
+          link : "https://www.techaddressed.com/"
+
     - name : Robert Mizen
       image_webp : images/team/robert-mizen.webp
       image : images/team/robert-mizen.jpg
