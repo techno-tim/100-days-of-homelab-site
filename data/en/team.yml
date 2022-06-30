@@ -145,6 +145,16 @@ team:
           link : "https://twitter.com/robert_mizen"
         - icon : ti-youtube
           link : "https://www.youtube.com/c/RobertMizen"
+    - name : Cody
+      image_webp : images/team/mactelecom-networks.webp
+      image : images/team/mactelecom-networks.jpg
+      designation : Mactelecom Networks
+      content : "Network specialist who makes YouTube Videos."
+      social :
+        - icon : ti-twitter-alt
+          link : "https://twitter.com/MactelecomN"
+        - icon : ti-youtube
+          link : "https://www.youtube.com/c/MactelecomNetworks"
 
     - name : Techno Tim
       image_webp : images/team/technotim.webp
