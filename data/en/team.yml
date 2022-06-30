@@ -146,6 +146,28 @@ team:
         - icon : ti-youtube
           link : "https://www.youtube.com/c/AwesomeOpenSource"
 
+    - name : Robert Mizen
+      image_webp : images/team/robert-mizen.webp
+      image : images/team/robert-mizen.jpg
+      designation : Robert Mizen
+      content : "Teacher in Data Centers, Technology & Networking. Tech Youtuber and Outdoor enthusiast, currently enthusiasting in Sweden. 🇪🇺🇬🇧🇸🇪"
+      social :
+        - icon : ti-twitter-alt
+          link : "https://twitter.com/robert_mizen"
+        - icon : ti-youtube
+          link : "https://www.youtube.com/c/RobertMizen"
+    
+    - name : Cody
+      image_webp : images/team/mactelecom-networks.webp
+      image : images/team/mactelecom-networks.jpg
+      designation : Mactelecom Networks
+      content : "Network specialist who makes YouTube Videos."
+      social :
+        - icon : ti-twitter-alt
+          link : "https://twitter.com/MactelecomN"
+        - icon : ti-youtube
+          link : "https://www.youtube.com/c/MactelecomNetworks"
+
     - name : Techno Tim
       image_webp : images/team/technotim.webp
       image : images/team/technotim.jpg
