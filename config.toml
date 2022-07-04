@@ -49,7 +49,12 @@ weight = 1
 [[Languages.en.menu.main]]
 name = "creators"
 url = "#team"
-weight = 4
+weight = 2
+
+[[Languages.en.menu.main]]
+name = "community"
+url = "#community"
+weight = 3
 
 
 ############################# Default Parameters ##########################
