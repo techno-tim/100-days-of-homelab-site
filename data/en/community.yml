@@ -48,6 +48,17 @@ team:
         - icon : ti-youtube
           link : "https://www.youtube.com/c/RobertMizen"
     
+    - name : IBRACORP
+      image_webp : images/team/ibracorp.webp
+      image : images/team/ibracorp.jpg
+      designation : IBRACORP
+      content : "System Admins | Content Creators on YouTube | Homelabbers | Self Hosters"
+      social :
+        - icon : ti-twitter-alt
+          link : "https://twitter.com/IBRACORP_IO"
+        - icon : ti-youtube
+          link : "https://www.youtube.com/c/IBRACORP"
+    
     - name : Cody
       image_webp : images/team/mactelecom-networks.webp
       image : images/team/mactelecom-networks.jpg
