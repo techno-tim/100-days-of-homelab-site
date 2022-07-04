@@ -69,3 +69,14 @@ team:
           link : "https://twitter.com/MactelecomN"
         - icon : ti-youtube
           link : "https://www.youtube.com/c/MactelecomNetworks"
+
+    - name : franchyze923
+      image_webp : images/team/franchyze923.webp
+      image : images/team/franchyze923.jpg
+      designation : franchyze923
+      content : "Programming, Homelabs, Drones, GIS and lots of other tech related content! "
+      social :
+        - icon : ti-twitter-alt
+          link : "https://twitter.com/franchyze923"
+        - icon : ti-youtube
+          link : "https://www.youtube.com/c/Franchyze923"
