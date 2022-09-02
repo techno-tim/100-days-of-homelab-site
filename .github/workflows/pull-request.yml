@@ -17,8 +17,6 @@ jobs:
     steps:
     - name: Check out the codebase
       uses: actions/checkout@2541b1294d2704b0964813337f33b291d3f8596b # 3.0.2
-      with:
-          fetch-depth: 0  # for posts's lastmod
 
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@2fddd8803e2f5c9604345a0b591c3020ee971a93
