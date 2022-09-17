@@ -88,6 +88,10 @@ link = "https://twitter.com/100DaysHomeLab"
 icon = "ti-youtube" # themify icon pack : https://themify.me/themify-icons
 link = "https://www.youtube.com/c/TechnoTimLive"
 
+[[params.social]]
+icon = "ti-comments-smiley" # themify icon pack : https://themify.me/themify-icons
+link = "https://l.technotim.live/discord"
+
 ################################ English Language ########################
 [Languages.en]
 languageName = "En"
