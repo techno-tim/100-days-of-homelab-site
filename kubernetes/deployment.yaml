@@ -52,3 +52,10 @@ spec:
               weight: 100
       imagePullSecrets: 
       - name: registry-credentials-gitlab
+      topologySpreadConstraints:
+        - maxSkew: 1
+          topologyKey: kubernetes.io/hostname
+          whenUnsatisfiable: DoNotSchedule
+          labelSelector:
+            matchLabels:
+              app.kubernetes.io/name: one-hundred-days-of-homelab-com
