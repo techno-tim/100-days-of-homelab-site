@@ -50,3 +50,12 @@ spec:
           labelSelector:
             matchLabels:
               app.kubernetes.io/name: one-hundred-days-of-homelab-com
+      affinity:
+        nodeAffinity:
+          requiredDuringSchedulingIgnoredDuringExecution:
+            nodeSelectorTerms:
+              - matchExpressions:
+                  - key: network
+                    operator: In
+                    values:
+                      - servers-untrusted
