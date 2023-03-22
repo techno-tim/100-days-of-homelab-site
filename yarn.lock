@@ -48,10 +48,10 @@
   dependencies:
     "@types/node" "*"
 
-"@xhmikosr/bin-wrapper@^5.0.0":
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/@xhmikosr/bin-wrapper/-/bin-wrapper-5.0.0.tgz#90d199bdca0639f184733cd6d88610175914b22c"
-  integrity sha512-9pRICa0j2Ec8rfCXWyKsDcoV8hoD5F2xN0z7v6ohVgBlY/uJ5mpjbRspG6CAKhOs+99kT19cQv/5IAFNoMm9Zg==
+"@xhmikosr/bin-wrapper@^5.0.1":
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/@xhmikosr/bin-wrapper/-/bin-wrapper-5.0.1.tgz#d24e3e549edd29e8b3c2d8981af2c86b860c5ddf"
+  integrity sha512-p7GzmlOFIJERRJOsHPAMPDZ5nY7dZC+MLif+4iME8qAIK/mFwrbu61hFXf8MACm1fT/qLmWpOj3kZPFsEbzE4w==
   dependencies:
     "@xhmikosr/downloader" "^9.0.0"
     bin-check "^4.1.0"
@@ -494,12 +494,12 @@ http2-wrapper@^1.0.0-beta.5.2:
     quick-lru "^5.1.1"
     resolve-alpn "^1.0.0"
 
-hugo-bin@^0.101.2:
-  version "0.101.2"
-  resolved "https://registry.yarnpkg.com/hugo-bin/-/hugo-bin-0.101.2.tgz#5cb427d44b023a7a0a64527ac35280156a2c8212"
-  integrity sha512-BnDDz7Fjw30V3Wq+KgzK1QJZCArfKM7yAE8U2PKDeG0j1GqNMIVpN2K/L2b3rwxF94Dm+hZ//M71OG+/Hp8DOg==
+hugo-bin@^0.101.3:
+  version "0.101.3"
+  resolved "https://registry.yarnpkg.com/hugo-bin/-/hugo-bin-0.101.3.tgz#8b0e789987f4b79b1d7873477bad26590038793e"
+  integrity sha512-mDcuD3vZHFUTsGEEhfc/zRZFmwdM2TvUvVzmTUeYQdgO3G3IVuzZX9rQN4ALC8fMRntsEaJAn2n5vQdABo5jTQ==
   dependencies:
-    "@xhmikosr/bin-wrapper" "^5.0.0"
+    "@xhmikosr/bin-wrapper" "^5.0.1"
     picocolors "^1.0.0"
     pkg-conf "^4.0.0"
     rimraf "^4.4.0"
