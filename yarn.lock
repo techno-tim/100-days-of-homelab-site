@@ -494,13 +494,12 @@ http2-wrapper@^1.0.0-beta.5.2:
     quick-lru "^5.1.1"
     resolve-alpn "^1.0.0"
 
-hugo-bin@^0.101.3:
-  version "0.101.3"
-  resolved "https://registry.yarnpkg.com/hugo-bin/-/hugo-bin-0.101.3.tgz#8b0e789987f4b79b1d7873477bad26590038793e"
-  integrity sha512-mDcuD3vZHFUTsGEEhfc/zRZFmwdM2TvUvVzmTUeYQdgO3G3IVuzZX9rQN4ALC8fMRntsEaJAn2n5vQdABo5jTQ==
+hugo-bin@^0.101.4:
+  version "0.101.4"
+  resolved "https://registry.yarnpkg.com/hugo-bin/-/hugo-bin-0.101.4.tgz#cf6c98d0b05b2b4b6610c9e1402611a96df11aa1"
+  integrity sha512-0IOuBxJqyGsVrEaQM8JnQdCqNIYUuvVUCCrjmSnQPp+qPzIVXeonUM5r6z1cPuDmfvDDd4o1/hErC/Gu41qAXQ==
   dependencies:
     "@xhmikosr/bin-wrapper" "^5.0.1"
-    picocolors "^1.0.0"
     pkg-conf "^4.0.0"
     rimraf "^4.4.0"
 
@@ -757,11 +756,6 @@ pend@~1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/pend/-/pend-1.2.0.tgz#7a57eb550a6783f9115331fcf4663d5c8e007a50"
   integrity sha512-F3asv42UuXchdzt+xXqfW1OGlVBe+mxa2mqI0pg5yAHZPvFmY3Y6drSf/GQ1A86WgWEN9Kzh/WrgKa6iGcHXLg==
-
-picocolors@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/picocolors/-/picocolors-1.0.0.tgz#cb5bdc74ff3f51892236eaf79d68bc44564ab81c"
-  integrity sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ==
 
 pify@^2.2.0, pify@^2.3.0:
   version "2.3.0"
