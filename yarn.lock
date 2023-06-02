@@ -48,21 +48,28 @@
   dependencies:
     "@types/node" "*"
 
-"@xhmikosr/bin-check@^5.0.1":
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/@xhmikosr/bin-check/-/bin-check-5.0.1.tgz#50a70366514fc150e9b101763dc965fae65ac608"
-  integrity sha512-oBf/E2HurgNPiQFHijoUMSxm8hCeUJF1Dw4/uq2QEfOdiEv9nTRf26I9EkSXib0MYtlp55rX8S47btzbv0noXA==
+"@xhmikosr/archive-type@^5.0.0":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@xhmikosr/archive-type/-/archive-type-5.0.0.tgz#e1423158aad89ff424f7c78d42d941e879d30ad2"
+  integrity sha512-l86YsKFntDpWs9BngiGD23+PdpKJMdmWIlSUGDMINx0k5eSfbV2zzAJyiwnG0gt+FammSlrLlsIlliCabAXIsg==
   dependencies:
-    "@xhmikosr/executable" "^5.0.0"
+    file-type "^12.4.2"
+
+"@xhmikosr/bin-check@^5.0.2":
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/@xhmikosr/bin-check/-/bin-check-5.0.2.tgz#067567ce4b67a0c08dc0111902b7e97d5def54f7"
+  integrity sha512-C3tIQSUuZmfAai+cDkdnEPTZ9ebkg5UHRytZRqvtsoOe8BPGZxHjDzjneYbJ+wPD9GTQEQDNL+i823ixfz/IKg==
+  dependencies:
+    "@xhmikosr/executable" "^5.0.1"
     execa "^5.1.1"
 
-"@xhmikosr/bin-wrapper@^8.0.0":
-  version "8.0.0"
-  resolved "https://registry.yarnpkg.com/@xhmikosr/bin-wrapper/-/bin-wrapper-8.0.0.tgz#eb7aa094890915346bdef902780263cf629bfb8e"
-  integrity sha512-2IY9ponQjH37heOMXnRbCOlnL7nLp9kKNwdipYXkHaA4TjX2E3J/AWk9epeJHR2BT2u6kYA0e5gyRw69raWTqQ==
+"@xhmikosr/bin-wrapper@^8.0.2":
+  version "8.0.2"
+  resolved "https://registry.yarnpkg.com/@xhmikosr/bin-wrapper/-/bin-wrapper-8.0.2.tgz#c9c55ffede1f5890ddac985355e22c9c92900519"
+  integrity sha512-1vxaG2BoqBngMDh53r6DSKEWYM7ETi248qbmp6Uh7AOT87JFydXc13GJOUuHEKogjWfX16CNlDLpLCqm5VNq/Q==
   dependencies:
-    "@xhmikosr/bin-check" "^5.0.1"
-    "@xhmikosr/downloader" "^11.0.0"
+    "@xhmikosr/bin-check" "^5.0.2"
+    "@xhmikosr/downloader" "^11.0.2"
     bin-version-check "^5.0.0"
     os-filter-obj "^2.0.0"
 
@@ -117,13 +124,13 @@
     make-dir "^3.1.0"
     strip-dirs "^3.0.0"
 
-"@xhmikosr/downloader@^11.0.0":
-  version "11.0.0"
-  resolved "https://registry.yarnpkg.com/@xhmikosr/downloader/-/downloader-11.0.0.tgz#7314717dc31ebe51dd7d39347d81a8eec7214eb8"
-  integrity sha512-aNEoyglUioG+VaSqvH5yIKhHi0Lf3i6QVdJ0MoYyu8QVuqheU1GzveWWFLfOniWgc6oQhjqcmwl9mrFaSz+eYw==
+"@xhmikosr/downloader@^11.0.2":
+  version "11.0.2"
+  resolved "https://registry.yarnpkg.com/@xhmikosr/downloader/-/downloader-11.0.2.tgz#c90293e6743c37a0c8047325477cbc8fa3d33acf"
+  integrity sha512-RdAobsdMCWZ0jvDY+4F0jrkuUllME/gBo89ko7+eTIWqa9UENDvELMu8TywhBfLXIXlRS9xY8WVXg2jPslAV3Q==
   dependencies:
+    "@xhmikosr/archive-type" "^5.0.0"
     "@xhmikosr/decompress" "^7.0.0"
-    archive-type "^4.0.0"
     content-disposition "^0.5.4"
     ext-name "^5.0.0"
     file-type "^12.4.2"
@@ -132,22 +139,15 @@
     got "^11.8.6"
     p-event "^5.0.1"
 
-"@xhmikosr/executable@^5.0.0":
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/@xhmikosr/executable/-/executable-5.0.0.tgz#8019776df9e8b23aae7f8832e225f4531a32dbec"
-  integrity sha512-4YeSmrBVHFtFUvp5DLzbpONXY1VWUyCVOXGV+d47NWhEW5jSFRJecvhX9Rq4jHJ72H8JuiahQZdF9YCIvWeV9Q==
+"@xhmikosr/executable@^5.0.1":
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/@xhmikosr/executable/-/executable-5.0.1.tgz#04dce8f6ec37e46f752e437cfbb7b87b76646eb1"
+  integrity sha512-asRvPbO95RMWo6WDSp63K2gx2R0l2nZFOaLX7b81bd8t1RfQwIJqL4U0pDlGbpvP2sXEpEf8ivVUJ3LCvw8KqQ==
 
 arch@^2.1.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/arch/-/arch-2.2.0.tgz#1bc47818f305764f23ab3306b0bfc086c5a29d11"
   integrity sha512-Of/R0wqp83cgHozfIYLbBMnej79U/SVGOOyuB3VVFv1NRM/PSFMK12x9KVtiYzJqmnU5WR2qp0Z5rHb7sWGnFQ==
-
-archive-type@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/archive-type/-/archive-type-4.0.0.tgz#f92e72233056dfc6969472749c267bdb046b1d70"
-  integrity sha512-zV4Ky0v1F8dBrdYElwTvQhweQ0P7Kwc1aluqJsYtOBP01jXcWCyW2IEfI1YiqsG+Iy7ZR+o5LF1N+PGECBxHWA==
-  dependencies:
-    file-type "^4.2.0"
 
 base64-js@^1.3.1:
   version "1.5.1"
@@ -305,11 +305,6 @@ file-type@^12.4.2:
   resolved "https://registry.yarnpkg.com/file-type/-/file-type-12.4.2.tgz#a344ea5664a1d01447ee7fb1b635f72feb6169d9"
   integrity sha512-UssQP5ZgIOKelfsaB5CuGAL+Y+q7EmONuiwF3N5HAH0t27rvrttgi6Ra9k/+DVaY9UF6+ybxu5pOXLUdA8N7Vg==
 
-file-type@^4.2.0:
-  version "4.4.0"
-  resolved "https://registry.yarnpkg.com/file-type/-/file-type-4.4.0.tgz#1b600e5fca1fbdc6e80c0a70c71c8dba5f7906c5"
-  integrity sha512-f2UbFQEk7LXgWpi5ntcO86OeA/cC80fuDDDaX/fZ2ZGel+AF7leRQqBBW1eJNiiQkrZlAoM6P+VYP5P6bOlDEQ==
-
 filename-reserved-regex@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/filename-reserved-regex/-/filename-reserved-regex-3.0.0.tgz#3d5dd6d4e2d73a3fed2ebc4cd0b3448869a081f7"
@@ -391,12 +386,12 @@ http2-wrapper@^1.0.0-beta.5.2:
     quick-lru "^5.1.1"
     resolve-alpn "^1.0.0"
 
-hugo-bin@^0.105.0:
-  version "0.105.0"
-  resolved "https://registry.yarnpkg.com/hugo-bin/-/hugo-bin-0.105.0.tgz#63338107525c69cd957b87d94ddab1d8a6b98da4"
-  integrity sha512-K1USB3m9RLmmpwROmFuebuecnVQJc14UFxkRDD/gHCxY6tY8pD/lDiq1MCLPaKwclDe+Jbd0D6pg8L0J2ejKXg==
+hugo-bin@^0.105.2:
+  version "0.105.2"
+  resolved "https://registry.yarnpkg.com/hugo-bin/-/hugo-bin-0.105.2.tgz#7e7ec10e593e5e0888b936725eb55d313db1085a"
+  integrity sha512-FCDz5XQFepuohtoXa0//P6HwUIPTEosIpGu3Y2dNKxLKxz90zerfdXmIp02ur3BXofOFFLWRJR6GVxpd77LUvg==
   dependencies:
-    "@xhmikosr/bin-wrapper" "^8.0.0"
+    "@xhmikosr/bin-wrapper" "^8.0.2"
     pkg-conf "^4.0.0"
 
 human-signals@^2.1.0:
