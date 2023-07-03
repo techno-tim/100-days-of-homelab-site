@@ -39,7 +39,7 @@
     execa "^5.1.1"
     isexe "^2.0.0"
 
-"@xhmikosr/bin-wrapper@^11.0.1":
+"@xhmikosr/bin-wrapper@^11.0.2":
   version "11.0.2"
   resolved "https://registry.yarnpkg.com/@xhmikosr/bin-wrapper/-/bin-wrapper-11.0.2.tgz#d07f3aaddc2830d5c4e1e32a3e947ae22ff31c77"
   integrity sha512-pm71RomgwM9M/2bW6JBqzdNY04DXtdSUIQDj4wKY353eqvTNhc32SwS451EvJVjLb4Nn5/8W9n4+MREn+wCxSA==
@@ -342,12 +342,12 @@ http2-wrapper@^2.1.10:
     quick-lru "^5.1.1"
     resolve-alpn "^1.2.0"
 
-hugo-bin@^0.110.1:
-  version "0.110.1"
-  resolved "https://registry.yarnpkg.com/hugo-bin/-/hugo-bin-0.110.1.tgz#3ba13c9d25e0a2a9c5c9a240f4b645932f23dc42"
-  integrity sha512-Yp7L0sJU1Xv6uv0zAXG1b2TGdAuu58uwJpsplOZphsFXM0av46gQeSKSo7dkGe7/NXTdnG/Uxxn+vlUsKsEJew==
+hugo-bin@^0.111.0:
+  version "0.111.0"
+  resolved "https://registry.yarnpkg.com/hugo-bin/-/hugo-bin-0.111.0.tgz#1b86247b3665827871afa013fef817d8822fb072"
+  integrity sha512-raVol9zsi91AtNIds9hcjNTuLBiolrlfPonM8CohcrBlthAJX6bqFDkPYkqa2rF/HupkQEHvMSkaIw1nRmwnbA==
   dependencies:
-    "@xhmikosr/bin-wrapper" "^11.0.1"
+    "@xhmikosr/bin-wrapper" "^11.0.2"
     pkg-conf "^4.0.0"
 
 human-signals@^2.1.0:
