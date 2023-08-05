@@ -29,10 +29,9 @@ spec:
           requests:
             memory: "64Mi"
             cpu: "100m"
-          limits: 
+          limits:
             memory: "128Mi"
-            cpu: "250m" 
-        ports: 
+        ports:
         - containerPort: 80
         readinessProbe:
             httpGet:
@@ -41,11 +40,11 @@ spec:
             initialDelaySeconds: 5
             periodSeconds: 5
             successThreshold: 1
-      imagePullSecrets: 
+      imagePullSecrets:
       - name: registry-credentials-gitlab
       topologySpreadConstraints:
         - maxSkew: 1
-          topologyKey: kubernetes.io/hostname
+          topologyKey: topology.kubernetes.io/zone
           whenUnsatisfiable: DoNotSchedule
           labelSelector:
             matchLabels:
