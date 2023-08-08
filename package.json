@@ -12,6 +12,6 @@
   "author": "Timothy Stewart",
   "private": true,
   "devDependencies": {
-    "hugo-bin": "^0.112.1"
+    "hugo-bin": "^0.113.0"
   }
 }
