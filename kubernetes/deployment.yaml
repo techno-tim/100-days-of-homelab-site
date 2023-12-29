@@ -48,7 +48,7 @@ spec:
           whenUnsatisfiable: DoNotSchedule
           labelSelector:
             matchLabels:
-              app.kubernetes.io/name: one-hundred-days-of-homelab-com
+              app: one-hundred-days-of-homelab-com
       affinity:
         nodeAffinity:
           requiredDuringSchedulingIgnoredDuringExecution:
