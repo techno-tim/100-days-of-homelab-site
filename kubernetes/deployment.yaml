@@ -23,17 +23,17 @@ spec:
         deploy-date: "deploy-date-value"
     spec:
       containers:
-      - name: one-hundred-days-of-homelab-com
-        image: "registry-value:latest"
-        resources:
-          requests:
-            memory: "64Mi"
-            cpu: "100m"
-          limits:
-            memory: "128Mi"
-        ports:
-        - containerPort: 80
-        readinessProbe:
+        - name: one-hundred-days-of-homelab-com
+          image: "registry-value:latest"
+          resources:
+            requests:
+              memory: "64Mi"
+              cpu: "100m"
+            limits:
+              memory: "128Mi"
+          ports:
+            - containerPort: 80
+          readinessProbe:
             httpGet:
               path: /
               port: 80
@@ -41,20 +41,20 @@ spec:
             periodSeconds: 5
             successThreshold: 1
       imagePullSecrets:
-      - name: registry-credentials-gitlab
-    topologySpreadConstraints:
-      - maxSkew: 1
-        topologyKey: topology.kubernetes.io/zone
-        whenUnsatisfiable: DoNotSchedule
-        labelSelector:
-          matchLabels:
-            app: one-hundred-days-of-homelab-com
-    affinity:
-      nodeAffinity:
-        requiredDuringSchedulingIgnoredDuringExecution:
-          nodeSelectorTerms:
-            - matchExpressions:
-                - key: network
-                  operator: In
-                  values:
-                    - servers-untrusted
+        - name: registry-credentials-gitlab
+      topologySpreadConstraints:
+        - maxSkew: 1
+          topologyKey: topology.kubernetes.io/zone
+          whenUnsatisfiable: DoNotSchedule
+          labelSelector:
+            matchLabels:
+              app: one-hundred-days-of-homelab-com
+      affinity:
+        nodeAffinity:
+          requiredDuringSchedulingIgnoredDuringExecution:
+            nodeSelectorTerms:
+              - matchExpressions:
+                  - key: network
+                    operator: In
+                    values:
+                      - servers-untrusted
