@@ -348,10 +348,10 @@ http2-wrapper@^2.1.10:
     quick-lru "^5.1.1"
     resolve-alpn "^1.2.0"
 
-hugo-bin@^0.120.6:
-  version "0.120.6"
-  resolved "https://registry.yarnpkg.com/hugo-bin/-/hugo-bin-0.120.6.tgz#ab00db3391fb731f5231b658e15552b7768cd8e9"
-  integrity sha512-+PSaRNOQpR8OnmkSCc+1aoFZSnNU/4VH6YVH0nzmNBCS5gFk28VapsP1V4oc9+fxZZ3nv3gF0xAKDjumzvkLdQ==
+hugo-bin@^0.120.7:
+  version "0.120.7"
+  resolved "https://registry.yarnpkg.com/hugo-bin/-/hugo-bin-0.120.7.tgz#d3e4a4d07606c1d46a0931f99fece8dfdd13e1ce"
+  integrity sha512-xx0JUuHI+4PY3P+EIwsYexU2NSKBQKxbcPPba9lTR9gI52EU59TcXaDjtLaXK9OPufm1TZzaWE2qncxQq/DnIw==
   dependencies:
     "@xhmikosr/bin-wrapper" "^12.0.0"
     pkg-conf "^4.0.0"
