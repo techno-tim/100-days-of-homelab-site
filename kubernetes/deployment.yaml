@@ -44,17 +44,8 @@ spec:
         - name: registry-credentials-gitlab
       topologySpreadConstraints:
         - maxSkew: 1
-          topologyKey: topology.kubernetes.io/zone
+          topologyKey: kubernetes.io/hostname
           whenUnsatisfiable: DoNotSchedule
           labelSelector:
             matchLabels:
               app: one-hundred-days-of-homelab-com
-      affinity:
-        nodeAffinity:
-          requiredDuringSchedulingIgnoredDuringExecution:
-            nodeSelectorTerms:
-              - matchExpressions:
-                  - key: network
-                    operator: In
-                    values:
-                      - servers-untrusted
