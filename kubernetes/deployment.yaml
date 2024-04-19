@@ -7,7 +7,7 @@ spec:
   selector:
     matchLabels:
       app: one-hundred-days-of-homelab-com
-  replicas: 3
+  replicas: 2
   progressDeadlineSeconds: 600
   revisionHistoryLimit: 3
   strategy:
@@ -27,10 +27,8 @@ spec:
           image: "registry-value:latest"
           resources:
             requests:
-              memory: "64Mi"
-              cpu: "100m"
-            limits:
-              memory: "128Mi"
+              memory: 50Mi
+              cpu: 10m
           ports:
             - containerPort: 80
           readinessProbe:
