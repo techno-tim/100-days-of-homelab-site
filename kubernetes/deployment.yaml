@@ -39,7 +39,7 @@ spec:
             periodSeconds: 5
             successThreshold: 1
       imagePullSecrets:
-        - name: registry-credentials-gitlab
+        - name: registry-credentials-limited-access-gitlab
       topologySpreadConstraints:
         - maxSkew: 1
           topologyKey: kubernetes.io/hostname
