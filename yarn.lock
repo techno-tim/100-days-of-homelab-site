@@ -336,10 +336,10 @@ http2-wrapper@^2.1.10:
     quick-lru "^5.1.1"
     resolve-alpn "^1.2.0"
 
-hugo-bin@^0.127.0:
-  version "0.127.0"
-  resolved "https://registry.yarnpkg.com/hugo-bin/-/hugo-bin-0.127.0.tgz#f08b57712d5620d0f3772cf491843403f7b09d84"
-  integrity sha512-tCp/MzBZAuWOMQo0YUU6dp6KpmcQsM2iFpsIMPtjlPbS1gSVVjgoIM/7zT8qVENDEWT4psa00N3gGobIjSMReg==
+hugo-bin@^0.128.0:
+  version "0.128.0"
+  resolved "https://registry.yarnpkg.com/hugo-bin/-/hugo-bin-0.128.0.tgz#480552e032c78cf4aaf47e3c0d15c38ff538dd0d"
+  integrity sha512-WX8lcZS1jUTcsyylpXj+HqqtKwBjbMgXORhHmvIalfsUAm7EivN6Z54Wo8783zrjprPVPUlNXiJdXKMK42tUKg==
   dependencies:
     "@xhmikosr/bin-wrapper" "^13.0.5"
     package-config "^5.0.0"
